@@ -1,0 +1,29 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body{
+    font-family: "Fredoka";
+}
+
+/* Utils*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #e53170;
+    text-align: center;
+    height: 500px;
+    padding: 40px 80px;
+    font-weight: bold;
+}
+
+h2{
+  font-weight: normal;
+}
