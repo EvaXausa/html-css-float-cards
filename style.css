@@ -16,7 +16,7 @@ body{
     margin: 0 auto;
 }
 
-h1{
+h1 {
     color: #e53170;
     text-align: center;
     height: 100px;
@@ -24,6 +24,19 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    color:white;
+    float: left;
+}
+
+h3{
+    color:white;
+    font-weight: normal;
+}
+
+.adress{
+    color:rgb(0, 119, 255)
+}
 p{
   text-align: center;
 }
@@ -42,4 +55,11 @@ p{
 img{
     height: 150px;
     width: 150px;
+    float:left;
+}
+
+section{
+    float: left;
+    margin-left: 2px;
+    text-align: center;
 }
