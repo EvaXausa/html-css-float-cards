@@ -10,56 +10,72 @@ body{
     font-family: "Fredoka";
 }
 
-/* Utils*/
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 h1 {
     color: #e53170;
     text-align: center;
-    height: 100px;
-    padding: 40px 80px;
-    font-weight: bold;
-}
-
-h2{
-    color:white;
-    float: left;
+    font-size: 40px;
+    margin: 50px 0;
 }
 
 h3{
-    color:white;
-    font-weight: normal;
+    text-transform: uppercase;
 }
 
-.adress{
-    color:rgb(0, 119, 255)
-}
 p{
-  text-align: center;
-}
-
-.box{
-    height: 150px;
-    width: 360px;
-    background-color: black;
+    font-size: 18px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 2px;
-    margin-left: 30px;
-    float: left;
+    margin-bottom: 50px;
 }
 
-img{
-    height: 150px;
-    width: 150px;
+a{
+    color:rgb(23, 158, 199);
+    text-decoration: none;
+}
+
+/* Utils*/
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+
+.row{
+    margin: 0 -1rem;
+}
+.column{
     float:left;
+    width: calc(100%/3);
+    padding:10px;
 }
 
-section{
-    float: left;
-    margin-left: 2px;
-    text-align: center;
+.card{
+    color: white;
+    height: 150px;
+    background-color: black;
 }
+
+.card-img{
+    height:100%;
+    width: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.card-content{
+    /*height: 100% */
+    padding: 10px;
+    line-height: calc(80px/3);
+}
+
+
+
+
+
+
+
+
